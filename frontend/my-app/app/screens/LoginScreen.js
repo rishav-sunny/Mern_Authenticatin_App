@@ -24,7 +24,7 @@ export default function LoginScreen({ navigation }) {
     } catch (error) {
       Alert.alert(
         "Login Failed",
-        error.response?.data?.message || "Something went wrong!"
+        error.response?.data?.message || "Something went wrong"
       );
     }
   };
